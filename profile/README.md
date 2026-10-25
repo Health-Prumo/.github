@@ -49,7 +49,7 @@ Em menos de um minuto você registra **sono, atividade física, água, alimenta�
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Geronymow"><img src="https://github.com/Geronymow.png?size=120" width="80" alt=""><br><sub><b>Guilherme Geronymo</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Geronymow"><img src="https://github.com/Geronymow.png?size=120" width="80" alt=""><br><sub><b>Geronymow</b></sub></a></td>
     <td align="center"><a href="https://github.com/Eduardokhayyam"><img src="https://github.com/Eduardokhayyam.png?size=120" width="80" alt=""><br><sub><b>Eduardo</b></sub></a></td>
     <td align="center"><a href="https://github.com/gaferamos"><img src="https://github.com/gaferamos.png?size=120" width="80" alt=""><br><sub><b>Gabriel</b></sub></a></td>
   </tr>
