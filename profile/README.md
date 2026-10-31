@@ -30,7 +30,7 @@ Em menos de um minuto você registra **sono, atividade física, água, alimenta�
 
 ### Arquitetura
 
-Serverless na AWS, pago por uso. O fluxo principal vai do login ao card "Seu dia": a Lambda calcula as notas por regras fixas e o Amazon Bedrock só transforma os números em texto. Toda a infraestrutura é descrita em Terraform.
+Serverless na AWS, pago por uso. O fluxo principal vai do login ao card "Seu dia": a Lambda calcula as notas por regras fixas e o Amazon Bedrock só transforma os números em texto. A Lambda roda em subnets privadas de duas zonas de disponibilidade, sem NAT Gateway, e fala com os serviços da AWS por VPC endpoints. Toda a infraestrutura é descrita em Terraform.
 
 <p align="center">
   <img src="assets/arquitetura-aws.png" alt="Arquitetura do Prumo na AWS" width="100%">
