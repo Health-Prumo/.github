@@ -28,6 +28,16 @@ Em menos de um minuto você registra **sono, atividade física, água, alimenta�
   <img src="assets/mobile-telas.png" alt="Telas do Prumo no celular" width="100%">
 </p>
 
+### Arquitetura
+
+Serverless na AWS, pago por uso. O fluxo principal vai do login ao card "Seu dia": a Lambda calcula as notas por regras fixas e o Amazon Bedrock só transforma os números em texto. Toda a infraestrutura é descrita em Terraform.
+
+<p align="center">
+  <img src="assets/arquitetura-aws.png" alt="Arquitetura do Prumo na AWS" width="100%">
+</p>
+
+→ [Serviços, decisões e custos](https://github.com/Health-Prumo/prumo/blob/main/docs/06-infraestrutura-aws.md)
+
 ### Repositórios
 
 | Repositório | O que tem | Status |
@@ -44,6 +54,7 @@ Em menos de um minuto você registra **sono, atividade física, água, alimenta�
 ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-0B392E?style=flat-square&logo=awslambda&logoColor=A8E0C4)
 ![Amazon DynamoDB](https://img.shields.io/badge/DynamoDB-0B392E?style=flat-square&logo=amazondynamodb&logoColor=A8E0C4)
 ![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-0B392E?style=flat-square&logo=amazonwebservices&logoColor=A8E0C4)
+![Terraform](https://img.shields.io/badge/Terraform-0B392E?style=flat-square&logo=terraform&logoColor=A8E0C4)
 
 ### Equipe
 
